@@ -21,13 +21,13 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="50dp"
-                    android:background="@drawable/book"
+                    android:background="@drawable/dictionary"
                     android:layout_gravity="center" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Book"
+                    android:text="Dictionary"
                     android:textSize="9pt"
                     android:layout_marginLeft="15dp"
                     android:layout_gravity="center"/>
@@ -36,7 +36,7 @@
                     android:id="@+id/play1"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_marginLeft="135dp"
+                    android:layout_marginLeft="100dp"
                     android:background="@drawable/play"
                     android:layout_gravity="center"/>
 
@@ -53,13 +53,13 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="50dp"
-                    android:background="@drawable/book"
+                    android:background="@drawable/dictionary"
                     android:layout_gravity="center" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Book"
+                    android:text="Dictionary"
                     android:textSize="9pt"
                     android:layout_marginLeft="15dp"
                     android:layout_gravity="center"/>
@@ -68,7 +68,7 @@
                     android:id="@+id/play2"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_marginLeft="135dp"
+                    android:layout_marginLeft="100dp"
                     android:background="@drawable/play"
                     android:layout_gravity="center"/>
 
@@ -85,13 +85,13 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="50dp"
-                    android:background="@drawable/book"
+                    android:background="@drawable/dictionary"
                     android:layout_gravity="center" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Book"
+                    android:text="Dictionary"
                     android:textSize="9pt"
                     android:layout_marginLeft="15dp"
                     android:layout_gravity="center"/>
@@ -100,7 +100,7 @@
                     android:id="@+id/play3"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_marginLeft="135dp"
+                    android:layout_marginLeft="100dp"
                     android:background="@drawable/play"
                     android:layout_gravity="center"/>
 
@@ -117,13 +117,13 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="50dp"
-                    android:background="@drawable/book"
+                    android:background="@drawable/dictionary"
                     android:layout_gravity="center" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Book"
+                    android:text="Dictionary"
                     android:textSize="9pt"
                     android:layout_marginLeft="15dp"
                     android:layout_gravity="center"/>
@@ -132,7 +132,7 @@
                     android:id="@+id/play4"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_marginLeft="135dp"
+                    android:layout_marginLeft="100dp"
                     android:background="@drawable/play"
                     android:layout_gravity="center"/>
 
@@ -149,13 +149,13 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="50dp"
-                    android:background="@drawable/book"
+                    android:background="@drawable/dictionary"
                     android:layout_gravity="center" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Book"
+                    android:text="Dictionary"
                     android:textSize="9pt"
                     android:layout_marginLeft="15dp"
                     android:layout_gravity="center"/>
@@ -164,7 +164,39 @@
                     android:id="@+id/play5"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_marginLeft="135dp"
+                    android:layout_marginLeft="100dp"
+                    android:background="@drawable/play"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:background="@color/colorWhite"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/dictionary"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dictionary"
+                    android:textSize="9pt"
+                    android:layout_marginLeft="15dp"
+                    android:layout_gravity="center"/>
+
+                <ImageButton
+                    android:id="@+id/play6"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="100dp"
                     android:background="@drawable/play"
                     android:layout_gravity="center"/>
 
@@ -177,29 +209,16 @@
                 android:orientation="horizontal"
                 android:background="@color/colorWhite"
                 android:layout_marginBottom="70dp"
+                android:gravity="right"
                 android:padding="8dp">
 
-                <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/book"
-                    android:layout_gravity="center" />
-
-                <TextView
+                <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Book"
-                    android:textSize="9pt"
-                    android:layout_marginLeft="15dp"
-                    android:layout_gravity="center"/>
-
-                <ImageButton
-                    android:id="@+id/play6"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_marginLeft="135dp"
-                    android:background="@drawable/play"
-                    android:layout_gravity="center"/>
+                    android:text="Exercise"
+                    android:background="@color/colorAccent"
+                    android:textColor="@color/colorWhite"
+                    />
 
             </LinearLayout>
 

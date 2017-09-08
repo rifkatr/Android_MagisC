@@ -46,16 +46,24 @@ public class fragmentWriting extends Fragment implements OnClickListener{
     }
 
     @Override
-    public void onClick(View view) {
+    public void onClick(View v) {
 
-        edSatu  = (EditText) view.findViewById(R.id.etSatu);
-        edDua  = (EditText) view.findViewById(R.id.etDua);
-        edTiga  = (EditText) view.findViewById(R.id.etTiga);
-        edEmpat  = (EditText) view.findViewById(R.id.etEmpat);
-
-        a.setText(edSatu.getText());
-
-        akhir.setVisibility(View.VISIBLE);
+        switch (v.getId()) {
+            case R.id.btnCheck:
+                if(edSatu.getText().toString().equals("B") && edDua.getText().toString().equals("O")
+                        && edTiga.getText().toString().equals("O") && edEmpat.getText().toString().equals("K")){
+                    akhir.setText("Correct");
+                    akhir.setBackgroundColor(getResources().getColor(R.color.colorCorrect));
+                    akhir.setVisibility(View.VISIBLE);
+                }else{
+                    akhir.setText("Incorrect");
+                    akhir.setBackgroundColor(getResources().getColor(R.color.colorWrong));
+                    akhir.setVisibility(View.VISIBLE);
+                }
+                break;
+            default:
+                break;
+        }
 
     }
 }
