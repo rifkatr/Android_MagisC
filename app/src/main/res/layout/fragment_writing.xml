@@ -75,12 +75,6 @@
             android:textColor="@color/colorWhite"
             android:text="Correct"/>
 
-        <TextView
-            android:id="@+id/tes"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="test"/>
-
         <ImageView
             android:layout_width="35dp"
             android:layout_height="40dp"
