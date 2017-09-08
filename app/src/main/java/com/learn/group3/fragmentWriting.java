@@ -48,17 +48,12 @@ public class fragmentWriting extends Fragment implements OnClickListener{
     @Override
     public void onClick(View view) {
 
-        String jawabA = "";
-        String jawabB = "";
-        String jawabC = "";
-        String jawabD = "";
+        edSatu  = (EditText) view.findViewById(R.id.etSatu);
+        edDua  = (EditText) view.findViewById(R.id.etDua);
+        edTiga  = (EditText) view.findViewById(R.id.etTiga);
+        edEmpat  = (EditText) view.findViewById(R.id.etEmpat);
 
-        jawabA = edSatu.getText().toString();
-        jawabB = edDua.getText().toString();
-        jawabC = edTiga.getText().toString();
-        jawabD = edEmpat.getText().toString();
-
-        a.setText(jawabA+jawabB+jawabC+jawabD);
+        a.setText(edSatu.getText());
 
         akhir.setVisibility(View.VISIBLE);
 
