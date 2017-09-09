@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#64a62f"
     tools:context=".Login" >
 
     <LinearLayout
@@ -16,6 +15,8 @@
         android:layout_marginTop="70dp"
         android:orientation="horizontal"
         tools:context=".Login">
+
+
 
         <RadioGroup
             android:id="@+id/rgGender"
@@ -29,7 +30,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="männlich"
-                android:textColor="#fff"
                 android:textSize="7pt" />
 
             <RadioButton
@@ -38,7 +38,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="70dp"
                 android:text="weiblich"
-                android:textColor="#fff"
                 android:textSize="7pt" />
 
         </RadioGroup>
@@ -84,8 +83,7 @@
             android:layout_height="wrap_content"
             android:text="Name :"
             android:textStyle="bold"
-            android:textSize="8pt"
-            android:textColor="@color/colorWhite"/>
+            android:textSize="8pt"/>
 
         <EditText
             android:id="@+id/edName"
@@ -98,7 +96,6 @@
             android:inputType="textPersonName"
             android:textAlignment="center"
             android:hint="Benutzername eingeben"
-            android:textColor="@color/colorWhite"
             android:textSize="15sp"/>
 
         <Button
@@ -109,7 +106,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Beginn!"
-            android:background="@color/colorAccent"
+            android:background="@color/colorPrimaryDark"
             android:textColor="@color/colorWhite"/>
 
     </LinearLayout>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="#64a62f">
+    >
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -21,24 +21,26 @@
                 android:textSize="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#fff"
+                android:textColor="#e8910d"
                 android:textStyle="bold"
-                android:text="Question"/>
+                android:text="Frage"/>
 
             <ImageView
                 android:id="@+id/btnMic"
                 android:layout_marginTop="25dp"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:background="@drawable/ic_keyboard_voice_white_24dp"/>
+                android:background="@drawable/mic_icon"/>
 
             <TextView
                 android:id="@+id/jawab"
                 android:layout_marginTop="25dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#fff"
-                android:text="Answer"/>
+                android:textColor="#e8910d"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="Antworten"/>
 
             <TextView
                 android:id="@+id/hasil"
@@ -50,7 +52,7 @@
                 android:layout_marginTop="25dp"
                 android:textSize="6pt"
                 android:textColor="@color/colorWhite"
-                android:text="Correct"/>
+                android:text="Richtig"/>
 
             <ImageView
                 android:id="@+id/next"
@@ -58,7 +60,7 @@
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
                 android:layout_gravity="right"
-                android:background="@drawable/ic_forward_white_24dp"/>
+                android:background="@drawable/icon_right"/>
 
         </LinearLayout>
 

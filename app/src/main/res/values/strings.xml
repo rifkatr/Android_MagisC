@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">Traveling</string>
-    <string name="title_home">Home</string>
-    <string name="title_listening">Listening</string>
-    <string name="title_reading">Reading</string>
-    <string name="title_speaking">Speaking</string>
-    <string name="title_writing">Writing</string>
-    <string name="title_quiz">Quiz</string>
+    <string name="title_home">Startseite</string>
+    <string name="title_listening">Hören</string>
+    <string name="title_reading">Lesen</string>
+    <string name="title_speaking">Apropos</string>
+    <string name="title_writing">Schreiben</string>
+    <string name="title_quiz">Spielen</string>
     <string name="login">Login</string>
     <string name="menu">Main Menu</string>
     <string name="title_dashboard">Dashboard</string>
@@ -17,4 +17,5 @@
     <string name="result">The result should replace this text</string>
     <string name="sesuatu">Katakan Sesuatu</string>
     <string name="tidaksupport">Maaf Device Anda Tidak Support</string>
+    <string name="storySatu">Thomas reist von den Niederlanden nach Deutschland. Er fährt mit dem Zug. Im Progamm besucht er Berlin. Er macht dort einen Spaziergang durch das Riegierungsviertel. Thomas will das Parlament besictigen, ϋber einen Flohmarkt bummeln. Am Abend will er auch ins Theater gehen</string>
 </resources>

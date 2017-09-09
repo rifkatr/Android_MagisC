@@ -21,12 +21,13 @@
         </FrameLayout>
 
         <android.support.design.widget.FloatingActionButton
+            android:id="@+id/Quis"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="70dp"
-            android:src="@drawable/play"
+            android:src="@drawable/ic_idea"
             app:backgroundTint="#e8910d"
             app:fabSize="normal"
             />

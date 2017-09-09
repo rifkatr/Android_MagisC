@@ -55,12 +55,12 @@ public class fragmentWriting extends Fragment implements OnClickListener{
             case R.id.btnCheck:
                 if(edSatu.getText().toString().equals("B") && edDua.getText().toString().equals("O")
                         && edTiga.getText().toString().equals("O") && edEmpat.getText().toString().equals("K")){
-                    akhir.setText("Correct");
+                    akhir.setText("Richtig");
                     akhir.setBackgroundColor(getResources().getColor(R.color.colorCorrect));
                     akhir.setVisibility(View.VISIBLE);
                     next.setVisibility(View.VISIBLE);
                 }else{
-                    akhir.setText("Incorrect");
+                    akhir.setText("Falsch");
                     akhir.setBackgroundColor(getResources().getColor(R.color.colorWrong));
                     akhir.setVisibility(View.VISIBLE);
                 }

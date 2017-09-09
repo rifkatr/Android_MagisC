@@ -48,7 +48,7 @@ public class ExerciseListening extends AppCompatActivity implements View.OnClick
     }
 
     protected void setTitle() {
-        titleExercise.setText("Exercise : " + String.valueOf(cek + 1));
+        titleExercise.setText("Übung : " + String.valueOf(cek + 1));
     }
 
     protected void visible(boolean status){
@@ -64,12 +64,12 @@ public class ExerciseListening extends AppCompatActivity implements View.OnClick
     }
 
     protected void trueAnswer(){
-        result.setText("Correct");
+        result.setText("Richtig");
         result.setBackgroundColor(getResources().getColor(R.color.colorCorrect));
     }
 
     protected void falseAnswer(){
-        result.setText("Incorrect");
+        result.setText("Falsch");
         result.setBackgroundColor(getResources().getColor(R.color.colorWrong));
     }
 

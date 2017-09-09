@@ -8,7 +8,7 @@
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:orientation="vertical"
-            android:background="#64a62f">
+            android:background="#fff">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -20,20 +20,16 @@
                     android:id="@+id/setting"
                     android:layout_width="25dp"
                     android:layout_height="25dp"
-                    android:background="@drawable/ic_settings_white_24dp"/>
-                <ImageView
-                    android:id="@+id/musicBackground"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
-                    android:layout_marginLeft="5dp"
-                    android:background="@drawable/icon_sound_on"/>
+                    android:background="@drawable/ico_setting"/>
+
                 <ImageView
                     android:id="@+id/ava"
                     android:layout_width="25dp"
                     android:layout_height="25dp"
-                    android:layout_marginLeft="150dp"
+                    android:layout_marginLeft="170dp"
                     android:background="@drawable/male"
                     android:layout_gravity="right"/>
+
                 <TextView
                     android:id="@+id/username"
                     android:layout_width="wrap_content"
@@ -43,19 +39,26 @@
                     android:textStyle="bold"
                     android:layout_gravity="center"
                     android:text="name"/>
+
             </LinearLayout>
 
             <LinearLayout
-                android:layout_marginTop="210dp"
+                android:layout_marginTop="25dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:gravity="center">
 
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/ic_logo"/>
+
                 <Button
                     android:id="@+id/cara"
                     android:layout_width="190dp"
                     android:layout_height="35dp"
+                    android:layout_marginTop="28dp"
                     android:text="Spielanleitung"
                     android:textColor="@color/colorWhite"
                     android:background="#2098d1"/>

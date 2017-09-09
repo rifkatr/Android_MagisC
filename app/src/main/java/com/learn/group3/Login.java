@@ -43,7 +43,6 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
             }
         });
 
-        cMale.setChecked(true);
         bstart.setOnClickListener(this);
     }
 

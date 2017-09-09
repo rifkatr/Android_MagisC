@@ -57,7 +57,7 @@ public class fragmentListening extends Fragment implements View.OnClickListener 
         switch (v.getId()) {
             case R.id.play1:
                 // ini kalo button 1 yg di klik
-                sound = MediaPlayer.create(getActivity().getApplication(), R.raw.buku);
+                sound = MediaPlayer.create(getActivity().getApplication(), R.raw.fahren);
                 sound.start();
                 break;
             case R.id.play2:

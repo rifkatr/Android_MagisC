@@ -117,7 +117,7 @@ public class ExerciseSpeaking extends AppCompatActivity implements View.OnClickL
         Intent i = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
         //dibawah ini adalah settingan untuk memanggil google speech input
         i.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
-        i.putExtra(RecognizerIntent.EXTRA_LANGUAGE, Locale.getDefault());
+        i.putExtra(RecognizerIntent.EXTRA_LANGUAGE, "de-DE");
         i.putExtra(RecognizerIntent.EXTRA_PROMPT, getString(R.string.sesuatu));
 
         //ini adalah perintah untuk mengeksekusi intent dan memunculkan dialog speech input google
