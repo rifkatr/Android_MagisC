@@ -2,8 +2,13 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_listening"
+        android:id="@+id/navigation_home"
         android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_listening"
+        android:icon="@drawable/ic_dashboard_black_24dp"
         android:title="@string/title_listening" />
 
     <item
@@ -13,7 +18,7 @@
 
     <item
         android:id="@+id/navigation_writing"
-        android:icon="@drawable/ic_notifications_black_24dp"
+        android:icon="@drawable/ic_border_color_white_24dp"
         android:title="@string/title_writing" />
 
     <item
@@ -21,9 +26,5 @@
         android:icon="@drawable/ic_dashboard_black_24dp"
         android:title="@string/title_reading" />
 
-    <item
-        android:id="@+id/navigation_quiz"
-        android:icon="@drawable/ic_dashboard_black_24dp"
-        android:title="@string/title_quiz" />
 
 </menu>

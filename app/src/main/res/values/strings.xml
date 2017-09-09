@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Traveling</string>
     <string name="title_home">Home</string>
     <string name="title_listening">Listening</string>
     <string name="title_reading">Reading</string>
@@ -11,4 +11,10 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="user">Name</string>
+
+    <string name="example">Speech To Text Example</string>
+    <string name="btn_tap">Tap to speech</string>
+    <string name="result">The result should replace this text</string>
+    <string name="sesuatu">Katakan Sesuatu</string>
+    <string name="tidaksupport">Maaf Device Anda Tidak Support</string>
 </resources>

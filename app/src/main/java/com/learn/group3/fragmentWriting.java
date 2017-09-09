@@ -12,6 +12,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class fragmentWriting extends Fragment implements OnClickListener{
@@ -19,6 +20,7 @@ public class fragmentWriting extends Fragment implements OnClickListener{
     Button bCheck;
     EditText edSatu, edDua, edTiga, edEmpat;
     TextView akhir, a;
+    ImageView next;
 
     public static fragmentWriting newInstance() {
         return new fragmentWriting();
@@ -32,13 +34,14 @@ public class fragmentWriting extends Fragment implements OnClickListener{
 
         bCheck  = (Button) view.findViewById(R.id.btnCheck);
         akhir = (TextView) view.findViewById(R.id.hasil);
+        next = (ImageView) view.findViewById(R.id.lain);
         edSatu  = (EditText) view.findViewById(R.id.etSatu);
         edDua  = (EditText) view.findViewById(R.id.etDua);
         edTiga  = (EditText) view.findViewById(R.id.etTiga);
         edEmpat  = (EditText) view.findViewById(R.id.etEmpat);
-        a = (TextView) view.findViewById(R.id.tes);
 
         akhir.setVisibility(View.INVISIBLE);
+        next.setVisibility(View.INVISIBLE);
 //      disini tambahin listener onClick nya
         bCheck.setOnClickListener(this);
 
@@ -55,6 +58,7 @@ public class fragmentWriting extends Fragment implements OnClickListener{
                     akhir.setText("Correct");
                     akhir.setBackgroundColor(getResources().getColor(R.color.colorCorrect));
                     akhir.setVisibility(View.VISIBLE);
+                    next.setVisibility(View.VISIBLE);
                 }else{
                     akhir.setText("Incorrect");
                     akhir.setBackgroundColor(getResources().getColor(R.color.colorWrong));

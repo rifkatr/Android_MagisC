@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#8a56d2">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="15dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <LinearLayout
             android:layout_marginTop="12dp"
@@ -14,10 +20,22 @@
             android:orientation="vertical"
             android:gravity="center">
 
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginBottom="24dp"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="Exercise 1"/>
+
             <ImageView
+                android:id="@+id/play_sound"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:background="@drawable/play"/>
+                android:background="@drawable/ic_play_circle_filled_white_24dp"/>
 
             <EditText
                 android:id="@+id/answer"
@@ -25,6 +43,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textColorHint="#d0d6de"
                 android:hint="Enter your Answer"/>
 
             <Button
@@ -32,6 +54,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="18dp"
+                android:background="#4e98f0"
+                android:textColor="#fff"
                 android:text="CHECK"/>
 
             <TextView
@@ -47,11 +71,12 @@
                 android:text="Correct"/>
 
             <ImageView
-                android:layout_width="35dp"
-                android:layout_height="40dp"
+                android:id="@+id/next_excercise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:layout_gravity="right"
-                android:background="@drawable/icon_right"/>
+                android:background="@drawable/ic_forward_white_24dp"/>
 
         </LinearLayout>
 

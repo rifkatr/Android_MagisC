@@ -1,5 +1,7 @@
 package com.learn.group3;
 
+
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -7,10 +9,10 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 
-public class fragmentSpeaking extends Fragment implements View.OnClickListener{
-
+public class fragmentSpeaking extends Fragment implements View.OnClickListener {
     // ini sound nya
     MediaPlayer sound;
 
@@ -20,19 +22,23 @@ public class fragmentSpeaking extends Fragment implements View.OnClickListener{
 
     @Nullable
     @Override
+
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_speaking,container,false);
-        //      get id nya disini, sama kaya kalo pake AppCompactActivity
+
+//      get id nya disini, sama kaya kalo pake AppCompactActivity
         ImageView playOne = (ImageView) view.findViewById(R.id.play1);
         ImageView playTwo = (ImageView) view.findViewById(R.id.play2);
         ImageView playThree = (ImageView) view.findViewById(R.id.play3);
+        Button buttonExcercise = (Button) view.findViewById(R.id.btn_exsercise);
 
 //      disini tambahin listener onClick nya
 
         playOne.setOnClickListener(this);
         playTwo.setOnClickListener(this);
         playThree.setOnClickListener(this);
+        buttonExcercise.setOnClickListener(this);
         return view;
     }
 
@@ -60,8 +66,14 @@ public class fragmentSpeaking extends Fragment implements View.OnClickListener{
                 sound = MediaPlayer.create(getActivity().getApplication(), R.raw.kamus);
                 sound.start();
                 break;
+            case R.id.btn_exsercise:
+                Intent i = new Intent(getActivity().getApplication(), ExerciseSpeaking.class);
+                startActivity(i);
+                break;
             default:
                 break;
         }
     }
 }
+
+

@@ -1,6 +1,7 @@
 package com.learn.group3;
 
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,6 +9,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 
 public class fragmentListening extends Fragment implements View.OnClickListener {
@@ -29,12 +31,14 @@ public class fragmentListening extends Fragment implements View.OnClickListener 
         ImageView playOne = (ImageView) view.findViewById(R.id.play1);
         ImageView playTwo = (ImageView) view.findViewById(R.id.play2);
         ImageView playThree = (ImageView) view.findViewById(R.id.play3);
+        Button buttonExcercise = (Button) view.findViewById(R.id.btn_exsercise);
 
 //      disini tambahin listener onClick nya
 
         playOne.setOnClickListener(this);
         playTwo.setOnClickListener(this);
         playThree.setOnClickListener(this);
+        buttonExcercise.setOnClickListener(this);
         return view;
     }
 
@@ -61,6 +65,10 @@ public class fragmentListening extends Fragment implements View.OnClickListener 
                 // ini kalo button 3 yg di klik
                 sound = MediaPlayer.create(getActivity().getApplication(), R.raw.buku);
                 sound.start();
+                break;
+            case R.id.btn_exsercise:
+                Intent i = new Intent(getActivity().getApplication(), ExerciseListening.class);
+                startActivity(i);
                 break;
             default:
                 break;

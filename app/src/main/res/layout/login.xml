@@ -4,16 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginLeft="30dp"
-    android:layout_marginRight="30dp"
     android:orientation="vertical"
+    android:background="@drawable/bg_login"
     tools:context=".Login" >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="110dp"
         android:orientation="horizontal"
         android:id="@+id/Linear1"
         tools:context=".Login">
@@ -29,14 +28,15 @@
                 android:id="@+id/rbMale"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Male" />
+                android:text="männlich"
+                android:checked="true"/>
 
             <RadioButton
                 android:id="@+id/rbFemale"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="70dp"
-                android:text="Female" />
+                android:text="weiblich" />
 
         </RadioGroup>
 
@@ -55,13 +55,13 @@
         <ImageView
             android:id="@+id/imageMale"
             android:layout_width="60dp"
-            android:layout_height="109dp"
-            android:background="@drawable/male" />
+            android:layout_height="60dp"
+            android:background="@drawable/male"/>
         <ImageView
             android:id="@+id/imageFemale"
             android:layout_width="60dp"
-            android:layout_height="109dp"
-            android:layout_marginLeft="70dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="85dp"
             android:background="@drawable/female" />
 
     </LinearLayout>
@@ -79,22 +79,35 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Name :"/>
+            android:text="Name :"
+            android:textStyle="bold"
+            android:textSize="8pt"
+            android:textColor="@color/colorWhite"/>
 
         <EditText
             android:id="@+id/edName"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:ems="10"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:hint="Benutzername eingeben"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp"/>
 
         <Button
             android:id="@+id/bStart"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Start"/>
+            android:text="Beginn!"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorWhite"/>
 
     </LinearLayout>
 

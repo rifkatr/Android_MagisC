@@ -16,7 +16,7 @@ public class Home extends AppCompatActivity implements BottomNavigationView.OnNa
         setContentView(R.layout.home);
 
         if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.flContent, fragmentListening.newInstance()).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.flContent, FragmentHome.newInstance()).commit();
         }
 
         bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
@@ -28,6 +28,8 @@ public class Home extends AppCompatActivity implements BottomNavigationView.OnNa
 
         switch (item.getItemId())
         {
+            case R.id.navigation_home: fragment = FragmentHome.newInstance();
+                break;
             case R.id.navigation_listening: fragment = fragmentListening.newInstance();
                 break;
             case R.id.navigation_speaking :fragment = fragmentSpeaking.newInstance();
@@ -35,8 +37,6 @@ public class Home extends AppCompatActivity implements BottomNavigationView.OnNa
             case R.id.navigation_writing : fragment = fragmentWriting.newInstance();
                 break;
             case R.id.navigation_reading : fragment = fragmentReading.newInstance();
-                break;
-            case R.id.navigation_quiz : fragment = fragmentQuiz.newInstance();
                 break;
         }
 
