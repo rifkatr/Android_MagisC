@@ -12,9 +12,9 @@ import android.widget.TextView;
 public class ExerciseListening extends AppCompatActivity implements View.OnClickListener {
 
     String[] answerArray = {
-            "BOOK",
-            "CHAIR",
-            "DESK"
+            "book",
+            "chair",
+            "desk"
     };
 
     ImageView playSound, nextIcon;

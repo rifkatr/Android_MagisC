@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#8a56d2">
+    android:background="#64a62f">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -44,7 +44,6 @@
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:textSize="15dp"
-                android:textAllCaps="true"
                 android:textColor="#fff"
                 android:textColorHint="#d0d6de"
                 android:hint="Enter your Answer"/>

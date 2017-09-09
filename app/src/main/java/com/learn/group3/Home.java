@@ -1,5 +1,6 @@
 package com.learn.group3;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -8,6 +9,7 @@ import android.view.MenuItem;
 import android.support.v4.app.Fragment;
 
 public class Home extends AppCompatActivity implements BottomNavigationView.OnNavigationItemReselectedListener{
+
 
     BottomNavigationView bottomNavigationView;
     @Override

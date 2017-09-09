@@ -8,7 +8,7 @@
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:orientation="vertical"
-            android:background="@drawable/bg_home">
+            android:background="#64a62f">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -41,6 +41,7 @@
                     android:layout_marginLeft="9dp"
                     android:textColor="@color/colorWrong"
                     android:textStyle="bold"
+                    android:layout_gravity="center"
                     android:text="name"/>
             </LinearLayout>
 
@@ -51,18 +52,22 @@
                 android:orientation="vertical"
                 android:gravity="center">
 
-                <ImageView
+                <Button
                     android:id="@+id/cara"
                     android:layout_width="190dp"
                     android:layout_height="35dp"
-                    android:background="@drawable/btn_howtoplay"/>
+                    android:text="Spielanleitung"
+                    android:textColor="@color/colorWhite"
+                    android:background="#2098d1"/>
 
-                <ImageView
+                <Button
                     android:id="@+id/cara"
-                    android:layout_marginTop="10dp"
                     android:layout_width="190dp"
                     android:layout_height="35dp"
-                    android:background="@drawable/btn_warum"/>
+                    android:layout_marginTop="10dp"
+                    android:text="Warum Deutsch?"
+                    android:textColor="@color/colorWhite"
+                    android:background="#2098d1"/>
 
             </LinearLayout>
 

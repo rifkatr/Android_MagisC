@@ -5,38 +5,41 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/bg_login"
+    android:background="#64a62f"
     tools:context=".Login" >
 
     <LinearLayout
+        android:id="@+id/Linear1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="110dp"
+        android:layout_marginTop="70dp"
         android:orientation="horizontal"
-        android:id="@+id/Linear1"
         tools:context=".Login">
 
         <RadioGroup
+            android:id="@+id/rgGender"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:orientation="horizontal"
-            android:id="@+id/rgGender">
+            android:orientation="horizontal">
 
             <RadioButton
                 android:id="@+id/rbMale"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="männlich"
-                android:checked="true"/>
+                android:textColor="#fff"
+                android:textSize="7pt" />
 
             <RadioButton
                 android:id="@+id/rbFemale"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="70dp"
-                android:text="weiblich" />
+                android:text="weiblich"
+                android:textColor="#fff"
+                android:textSize="7pt" />
 
         </RadioGroup>
 

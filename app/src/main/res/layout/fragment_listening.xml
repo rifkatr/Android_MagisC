@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#64a62f">
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -19,16 +20,16 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/book"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/travel"
                     android:layout_gravity="center" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Book"
-                    android:textSize="9pt"
+                    android:text="Reisen"
+                    android:textSize="7pt"
                     android:layout_marginLeft="15dp"
                     android:layout_gravity="center"/>
 
@@ -36,7 +37,7 @@
                     android:id="@+id/play1"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_marginLeft="135dp"
+                    android:layout_marginLeft="70dp"
                     android:background="@drawable/play"
                     android:layout_gravity="center"/>
 
@@ -51,24 +52,25 @@
                 android:padding="8dp">
 
                 <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/book"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/bicycle"
                     android:layout_gravity="center" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Book"
-                    android:textSize="9pt"
+                    android:text="Fahrrad"
+                    android:textSize="7pt"
                     android:layout_marginLeft="15dp"
                     android:layout_gravity="center"/>
 
-                <ImageButton
+                <ImageView
                     android:id="@+id/play2"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_marginLeft="135dp"
+                    android:layout_marginLeft="61dp"
+                    android:gravity="right"
                     android:background="@drawable/play"
                     android:layout_gravity="center"/>
 
@@ -83,24 +85,25 @@
                 android:padding="8dp">
 
                 <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/book"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/boat"
                     android:layout_gravity="center" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Book"
-                    android:textSize="9pt"
+                    android:text="Schiff"
+                    android:textSize="7pt"
                     android:layout_marginLeft="15dp"
                     android:layout_gravity="center"/>
 
-                <ImageButton
+                <ImageView
                     android:id="@+id/play3"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_marginLeft="135dp"
+                    android:layout_marginLeft="73dp"
+                    android:gravity="right"
                     android:background="@drawable/play"
                     android:layout_gravity="center"/>
 
@@ -115,24 +118,25 @@
                 android:padding="8dp">
 
                 <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/book"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/motorcycle"
                     android:layout_gravity="center" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Book"
-                    android:textSize="9pt"
+                    android:text="Motorrad"
+                    android:textSize="7pt"
                     android:layout_marginLeft="15dp"
                     android:layout_gravity="center"/>
 
-                <ImageButton
+                <ImageView
                     android:id="@+id/play4"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_marginLeft="135dp"
+                    android:layout_marginLeft="50dp"
+                    android:gravity="right"
                     android:background="@drawable/play"
                     android:layout_gravity="center"/>
 
@@ -147,56 +151,25 @@
                 android:padding="8dp">
 
                 <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/book"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/plane"
                     android:layout_gravity="center" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Book"
-                    android:textSize="9pt"
+                    android:text="Flugzeug"
+                    android:textSize="7pt"
                     android:layout_marginLeft="15dp"
                     android:layout_gravity="center"/>
 
-                <ImageButton
+                <ImageView
                     android:id="@+id/play5"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_marginLeft="135dp"
-                    android:background="@drawable/play"
-                    android:layout_gravity="center"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:orientation="horizontal"
-                android:background="@color/colorWhite"
-                android:padding="8dp">
-
-                <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/book"
-                    android:layout_gravity="center" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Book"
-                    android:textSize="9pt"
-                    android:layout_marginLeft="15dp"
-                    android:layout_gravity="center"/>
-
-                <ImageButton
-                    android:id="@+id/play6"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_marginLeft="135dp"
+                    android:layout_marginLeft="50dp"
+                    android:gravity="right"
                     android:background="@drawable/play"
                     android:layout_gravity="center"/>
 
@@ -208,14 +181,15 @@
                 android:layout_marginTop="15dp"
                 android:orientation="horizontal"
                 android:layout_marginBottom="70dp"
-                android:gravity="right"
+                android:gravity="center"
                 android:padding="8dp">
 
                 <Button
                     android:id="@+id/btn_exsercise"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="34dp"
                     android:text="Exercise"
+                    android:layout_gravity="center"
                     android:background="@color/colorAccent"
                     android:textColor="@color/colorWhite"
                     />
