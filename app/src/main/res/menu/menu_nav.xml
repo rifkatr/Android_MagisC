@@ -3,17 +3,17 @@
 
     <item
         android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_home_black_24dp"
+        android:icon="@drawable/ic_home_white_24dp"
         android:title="@string/title_home" />
 
     <item
         android:id="@+id/navigation_listening"
-        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:icon="@drawable/ic_listening"
         android:title="@string/title_listening" />
 
     <item
         android:id="@+id/navigation_speaking"
-        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:icon="@drawable/ic_speaking"
         android:title="@string/title_speaking" />
 
     <item
@@ -23,7 +23,7 @@
 
     <item
         android:id="@+id/navigation_reading"
-        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:icon="@drawable/ic_import_contacts_white_24dp"
         android:title="@string/title_reading" />
 
 
