@@ -18,4 +18,5 @@
     <string name="sesuatu">Katakan Sesuatu</string>
     <string name="tidaksupport">Maaf Device Anda Tidak Support</string>
     <string name="storySatu">Thomas reist von den Niederlanden nach Deutschland. Er fährt mit dem Zug. Im Progamm besucht er Berlin. Er macht dort einen Spaziergang durch das Riegierungsviertel. Thomas will das Parlament besictigen, ϋber einen Flohmarkt bummeln. Am Abend will er auch ins Theater gehen</string>
+    <string name="storySatuLat"> Thomas (1) von den Niederlanden nach Deutschland. Er fährt mit dem (2). Im Progamm besucht er Berlin. Er macht dort einen Spaziergang durch das Riegierungsviertel. Thomas will das Parlament besictigen, ϋber einen Flohmarkt bummeln. Am Abend will er auch ins Theater (3).</string>
 </resources>

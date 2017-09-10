@@ -51,11 +51,11 @@ public class fragmentReading extends Fragment implements View.OnClickListener{
                 sound.start();
                 break;
             case R.id.btnExercise:
-                Intent i = new Intent(getActivity().getApplication(), ExerciseListening.class);
+                Intent i = new Intent(getActivity().getApplication(), ExerciseReading.class);
                 startActivity(i);
                 break;
             case R.id.btnVocab:
-                Intent j = new Intent(getActivity().getApplication(), ExerciseListening.class);
+                Intent j = new Intent(getActivity().getApplication(), VocabSatuReading.class);
                 startActivity(j);
                 break;
             default:

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:src="@drawable/bicycle"
+                android:layout_gravity="center"
+                android:maxWidth="10dp"/>
+            <RadioGroup
+                android:padding="10dp"
+                android:id="@+id/soal_satu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/satu_a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Jawaban A" />
+                <RadioButton
+                    android:id="@+id/satu_b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Jawaban B"/>
+                <RadioButton
+                    android:id="@+id/satu_c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Jawaban C" />
+                <RadioButton
+                    android:id="@+id/satu_d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Jawaban D" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:src="@drawable/bicycle"
+                android:layout_gravity="center"
+                android:maxWidth="10dp"/>
+            <RadioGroup
+                android:padding="10dp"
+                android:id="@+id/soal_dua"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/dua_a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Jawaban A"/>
+                <RadioButton
+                    android:id="@+id/dua_b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Jawaban B"/>
+                <RadioButton
+                    android:id="@+id/dua_c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Jawaban C"/>
+                <RadioButton
+                    android:id="@+id/dua_d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Jawaban D"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:src="@drawable/bicycle"
+                android:layout_gravity="center"
+                android:maxWidth="10dp"/>
+            <RadioGroup
+                android:padding="10dp"
+                android:id="@+id/soal_tiga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/tiga_a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Jawaban A"/>
+                <RadioButton
+                    android:id="@+id/tiga_b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Jawaban B"/>
+                <RadioButton
+                    android:id="@+id/tiga_c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Jawaban C"/>
+                <RadioButton
+                    android:id="@+id/tiga_d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Jawaban D"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/hasilJawaban"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cek Jawaban"/>
+    </LinearLayout>
+
+</ScrollView>

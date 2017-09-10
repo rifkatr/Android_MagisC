@@ -28,6 +28,10 @@
             android:label="Deutsch Reisen"/>
         <activity android:name=".fragmentQuiz"
             android:label="Deutsch Reisen" />
+        <activity android:name=".QuizLevelOne"
+            android:label="Deutsch Reisen" />
+        <activity android:name=".ExerciseReading"
+            android:label="Deutsch Reisen" />
     </application>
 
 </manifest>
