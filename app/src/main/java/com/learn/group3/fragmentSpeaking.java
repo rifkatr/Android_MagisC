@@ -31,6 +31,8 @@ public class fragmentSpeaking extends Fragment implements View.OnClickListener {
         ImageView playOne = (ImageView) view.findViewById(R.id.play1);
         ImageView playTwo = (ImageView) view.findViewById(R.id.play2);
         ImageView playThree = (ImageView) view.findViewById(R.id.play3);
+        ImageView playFour = (ImageView) view.findViewById(R.id.play4);
+        ImageView playFive = (ImageView) view.findViewById(R.id.play5);
         Button buttonExcercise = (Button) view.findViewById(R.id.btn_exsercise);
 
 //      disini tambahin listener onClick nya
@@ -38,6 +40,8 @@ public class fragmentSpeaking extends Fragment implements View.OnClickListener {
         playOne.setOnClickListener(this);
         playTwo.setOnClickListener(this);
         playThree.setOnClickListener(this);
+        playFour.setOnClickListener(this);
+        playFive.setOnClickListener(this);
         buttonExcercise.setOnClickListener(this);
         return view;
     }
@@ -53,17 +57,27 @@ public class fragmentSpeaking extends Fragment implements View.OnClickListener {
         switch (v.getId()) {
             case R.id.play1:
                 // ini kalo button 1 yg di klik
-                sound = MediaPlayer.create(getActivity().getApplication(), R.raw.kamus);
+                sound = MediaPlayer.create(getActivity().getApplication(), R.raw.dasflugzeug);
                 sound.start();
                 break;
             case R.id.play2:
                 // ini kalo button 2 yg di klik
-                sound = MediaPlayer.create(getActivity().getApplication(), R.raw.kamus);
+                sound = MediaPlayer.create(getActivity().getApplication(), R.raw.derfahrrad);
                 sound.start();
                 break;
             case R.id.play3:
                 // ini kalo button 3 yg di klik
-                sound = MediaPlayer.create(getActivity().getApplication(), R.raw.kamus);
+                sound = MediaPlayer.create(getActivity().getApplication(), R.raw.diestrasse);
+                sound.start();
+                break;
+            case R.id.play4:
+                // ini kalo button 3 yg di klik
+                sound = MediaPlayer.create(getActivity().getApplication(), R.raw.derbahnhof);
+                sound.start();
+                break;
+            case R.id.play5:
+                // ini kalo button 3 yg di klik
+                sound = MediaPlayer.create(getActivity().getApplication(), R.raw.dasschiff);
                 sound.start();
                 break;
             case R.id.btn_exsercise:

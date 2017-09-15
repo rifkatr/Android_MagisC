@@ -12,9 +12,9 @@ import android.widget.TextView;
 public class ExerciseListening extends AppCompatActivity implements View.OnClickListener {
 
     String[] answerArray = {
-            "book",
-            "chair",
-            "desk"
+            "fahren",
+            "fliegen",
+            "gehen"
     };
 
     ImageView playSound, nextIcon;
@@ -30,15 +30,15 @@ public class ExerciseListening extends AppCompatActivity implements View.OnClick
         }
         switch (cek) {
             case 0:
-                sound = MediaPlayer.create(ExerciseListening.this, R.raw.buku);
+                sound = MediaPlayer.create(ExerciseListening.this, R.raw.fahren);
                 sound.start();
                 break;
             case 1:
-                sound = MediaPlayer.create(ExerciseListening.this, R.raw.kamus);
+                sound = MediaPlayer.create(ExerciseListening.this, R.raw.fliegen);
                 sound.start();
                 break;
             case 2:
-                sound = MediaPlayer.create(ExerciseListening.this, R.raw.buku);
+                sound = MediaPlayer.create(ExerciseListening.this, R.raw.gehen);
                 sound.start();
                 break;
             default:

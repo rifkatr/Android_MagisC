@@ -18,9 +18,8 @@ import java.util.Locale;
 public class ExerciseSpeaking extends AppCompatActivity implements View.OnClickListener {
 
     String[] answerArray = {
-            "book",
-            "chair",
-            "desk"
+            "fahren",
+            "fliegen"
     };
 
     TextView result, result2, question;
@@ -31,13 +30,10 @@ public class ExerciseSpeaking extends AppCompatActivity implements View.OnClickL
     protected void setQuestion(){
         switch (cek) {
             case 0:
-                question.setText("Book");
+                question.setText("Fahren");
                 break;
             case 1:
-                question.setText("Chair");
-                break;
-            case 2:
-                question.setText("Desk");
+                question.setText("Fliegen");
                 break;
             default:
                 break;
@@ -58,12 +54,12 @@ public class ExerciseSpeaking extends AppCompatActivity implements View.OnClickL
     }
 
     protected void trueAnswer(){
-        result2.setText("Correct");
+        result2.setText("Richtig");
         result2.setBackgroundColor(getResources().getColor(R.color.colorCorrect));
     }
 
     protected void falseAnswer(){
-        result2.setText("Incorrect");
+        result2.setText("Falsch");
         result2.setBackgroundColor(getResources().getColor(R.color.colorWrong));
     }
 

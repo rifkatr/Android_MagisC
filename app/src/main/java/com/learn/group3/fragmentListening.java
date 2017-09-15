@@ -62,22 +62,22 @@ public class fragmentListening extends Fragment implements View.OnClickListener 
                 break;
             case R.id.play2:
                 // ini kalo button 2 yg di klik
-                sound = MediaPlayer.create(getActivity().getApplication(), R.raw.buku);
+                sound = MediaPlayer.create(getActivity().getApplication(), R.raw.fliegen);
                 sound.start();
                 break;
             case R.id.play3:
                 // ini kalo button 3 yg di klik
-                sound = MediaPlayer.create(getActivity().getApplication(), R.raw.buku);
+                sound = MediaPlayer.create(getActivity().getApplication(), R.raw.gehen);
                 sound.start();
                 break;
             case R.id.play4:
                 // ini kalo button 3 yg di klik
-                sound = MediaPlayer.create(getActivity().getApplication(), R.raw.buku);
+                sound = MediaPlayer.create(getActivity().getApplication(), R.raw.rennen);
                 sound.start();
                 break;
             case R.id.play5:
                 // ini kalo button 3 yg di klik
-                sound = MediaPlayer.create(getActivity().getApplication(), R.raw.buku);
+                sound = MediaPlayer.create(getActivity().getApplication(), R.raw.derbus);
                 sound.start();
                 break;
             case R.id.btn_exsercise:

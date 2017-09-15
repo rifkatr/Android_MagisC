@@ -14,7 +14,7 @@
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="100dp"
-                android:src="@drawable/bicycle"
+                android:src="@drawable/fliegen_"
                 android:layout_gravity="center"
                 android:maxWidth="10dp"/>
             <RadioGroup
@@ -28,25 +28,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Jawaban A" />
+                    android:text="Fahren" />
                 <RadioButton
                     android:id="@+id/satu_b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Jawaban B"/>
+                    android:text="Fliegen"/>
                 <RadioButton
                     android:id="@+id/satu_c"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Jawaban C" />
-                <RadioButton
-                    android:id="@+id/satu_d"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Jawaban D" />
+                    android:text="Motorrad" />
             </RadioGroup>
         </LinearLayout>
 
@@ -58,7 +52,7 @@
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="100dp"
-                android:src="@drawable/bicycle"
+                android:src="@drawable/fahren_"
                 android:layout_gravity="center"
                 android:maxWidth="10dp"/>
             <RadioGroup
@@ -71,76 +65,31 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Jawaban A"/>
+                    android:text="Schiff"/>
                 <RadioButton
                     android:id="@+id/dua_b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Jawaban B"/>
+                    android:text="Flugzeug"/>
                 <RadioButton
                     android:id="@+id/dua_c"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Jawaban C"/>
-                <RadioButton
-                    android:id="@+id/dua_d"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Jawaban D"/>
+                    android:text="Fahren"/>
             </RadioGroup>
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="10dp">
-            <ImageView
-                android:layout_width="150dp"
-                android:layout_height="100dp"
-                android:src="@drawable/bicycle"
-                android:layout_gravity="center"
-                android:maxWidth="10dp"/>
-            <RadioGroup
-                android:padding="10dp"
-                android:id="@+id/soal_tiga"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <RadioButton
-                    android:id="@+id/tiga_a"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Jawaban A"/>
-                <RadioButton
-                    android:id="@+id/tiga_b"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Jawaban B"/>
-                <RadioButton
-                    android:id="@+id/tiga_c"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Jawaban C"/>
-                <RadioButton
-                    android:id="@+id/tiga_d"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Jawaban D"/>
-            </RadioGroup>
-        </LinearLayout>
 
         <Button
+            android:layout_margin="16dp"
             android:id="@+id/hasilJawaban"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cek Jawaban"/>
+            android:background="@color/colorAccent"
+            android:textColor="#fff"
+            android:text="Prüfen"/>
     </LinearLayout>
 
 </ScrollView>

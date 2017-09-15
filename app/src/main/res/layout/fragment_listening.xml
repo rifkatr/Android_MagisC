@@ -21,7 +21,7 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="70dp"
-                    android:background="@drawable/fahren"
+                    android:background="@drawable/fahren_"
                     android:layout_gravity="center" />
 
                 <TextView
@@ -54,14 +54,14 @@
                     android:layout_width="100dp"
                     android:layout_height="70dp"
                     android:layout_gravity="center"
-                    android:background="@drawable/bicycle" />
+                    android:background="@drawable/fliegen_" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginLeft="15dp"
-                    android:text="Fahrrad"
+                    android:text="Fliegen"
                     android:textSize="7pt" />
 
                 <ImageView
@@ -69,9 +69,8 @@
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="61dp"
-                    android:background="@drawable/play"
-                    android:gravity="right" />
+                    android:layout_marginLeft="70dp"
+                    android:background="@drawable/play" />
 
             </LinearLayout>
 
@@ -86,13 +85,13 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="70dp"
-                    android:background="@drawable/boat"
+                    android:background="@drawable/gehen_"
                     android:layout_gravity="center" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Schiff"
+                    android:text="Gehen"
                     android:textSize="7pt"
                     android:layout_marginLeft="15dp"
                     android:layout_gravity="center"/>
@@ -119,13 +118,13 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="70dp"
-                    android:background="@drawable/motorcycle"
+                    android:background="@drawable/rennen_"
                     android:layout_gravity="center" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Motorrad"
+                    android:text="Rennen"
                     android:textSize="7pt"
                     android:layout_marginLeft="15dp"
                     android:layout_gravity="center"/>
@@ -134,10 +133,10 @@
                     android:id="@+id/play4"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_marginLeft="50dp"
-                    android:gravity="right"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="65dp"
                     android:background="@drawable/play"
-                    android:layout_gravity="center"/>
+                    android:gravity="right" />
 
             </LinearLayout>
 
@@ -152,13 +151,13 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="70dp"
-                    android:background="@drawable/plane"
+                    android:background="@drawable/derbus_"
                     android:layout_gravity="center" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Flugzeug"
+                    android:text="der Bus"
                     android:textSize="7pt"
                     android:layout_marginLeft="15dp"
                     android:layout_gravity="center"/>
@@ -167,7 +166,7 @@
                     android:id="@+id/play5"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_marginLeft="50dp"
+                    android:layout_marginLeft="70dp"
                     android:gravity="right"
                     android:background="@drawable/play"
                     android:layout_gravity="center"/>

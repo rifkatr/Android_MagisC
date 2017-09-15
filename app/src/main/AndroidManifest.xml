@@ -32,6 +32,8 @@
             android:label="Deutsch Reisen" />
         <activity android:name=".ExerciseReading"
             android:label="Deutsch Reisen" />
+        <activity android:name=".VocabSatuReading"
+            android:label="Deutsch Reisen" />
     </application>
 
 </manifest>

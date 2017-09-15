@@ -77,21 +77,21 @@
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:textSize="13dp"
-                android:text="a. gehen"/>
+                android:text="gehen"/>
 
             <TextView
                 android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:textSize="13dp"
-                android:text="a. reist"/>
+                android:text="reist"/>
 
             <TextView
                 android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:textSize="13dp"
-                android:text="a. Zug"/>
+                android:text="Zug"/>
 
         </LinearLayout>
 

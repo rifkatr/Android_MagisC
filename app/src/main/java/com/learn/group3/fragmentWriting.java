@@ -18,7 +18,7 @@ import android.widget.TextView;
 public class fragmentWriting extends Fragment implements OnClickListener{
 
     Button bCheck;
-    EditText edSatu, edDua, edTiga, edEmpat;
+    EditText edSatu, edDua, edTiga, edEmpat, edLima, edEnam;
     TextView akhir, a;
     ImageView next;
 
@@ -39,6 +39,8 @@ public class fragmentWriting extends Fragment implements OnClickListener{
         edDua  = (EditText) view.findViewById(R.id.etDua);
         edTiga  = (EditText) view.findViewById(R.id.etTiga);
         edEmpat  = (EditText) view.findViewById(R.id.etEmpat);
+        edLima  = (EditText) view.findViewById(R.id.etLima);
+        edEnam  = (EditText) view.findViewById(R.id.etEnam);
 
         akhir.setVisibility(View.INVISIBLE);
         next.setVisibility(View.INVISIBLE);
@@ -53,8 +55,9 @@ public class fragmentWriting extends Fragment implements OnClickListener{
 
         switch (v.getId()) {
             case R.id.btnCheck:
-                if(edSatu.getText().toString().equals("B") && edDua.getText().toString().equals("O")
-                        && edTiga.getText().toString().equals("O") && edEmpat.getText().toString().equals("K")){
+                if(edSatu.getText().toString().equals("f") && edDua.getText().toString().equals("a")
+                        && edTiga.getText().toString().equals("h") && edEmpat.getText().toString().equals("r")
+                        && edLima.getText().toString().equals("e")&& edEnam.getText().toString().equals("n")){
                     akhir.setText("Richtig");
                     akhir.setBackgroundColor(getResources().getColor(R.color.colorCorrect));
                     akhir.setVisibility(View.VISIBLE);
@@ -65,9 +68,9 @@ public class fragmentWriting extends Fragment implements OnClickListener{
                     akhir.setVisibility(View.VISIBLE);
                 }
                 break;
+            case R.id.lain:
             default:
                 break;
         }
-
     }
 }

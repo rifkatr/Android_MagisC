@@ -17,11 +17,11 @@ import android.widget.Toast;
 public class QuizLevelOne extends AppCompatActivity implements View.OnClickListener {
 
     String[] jawaban = {
-            "Jawaban B", "Jawaban C", "Jawaban A"
+            "Fliegen", "Fahren"
     };
 
-    RadioGroup soalSatu, soalDua, soalTiga;
-    RadioButton jawab1, jawab2, jawab3;
+    RadioGroup soalSatu, soalDua;
+    RadioButton jawab1, jawab2;
     Button selesai;
 
     int benar = 0;
@@ -33,7 +33,6 @@ public class QuizLevelOne extends AppCompatActivity implements View.OnClickListe
 
         soalSatu = (RadioGroup) findViewById(R.id.soal_satu);
         soalDua = (RadioGroup) findViewById(R.id.soal_dua);
-        soalTiga = (RadioGroup) findViewById(R.id.soal_tiga);
 
         selesai = (Button) findViewById(R.id.hasilJawaban);
 
@@ -48,21 +47,19 @@ public class QuizLevelOne extends AppCompatActivity implements View.OnClickListe
                 benar = 0;
                 int hasilSoalSatu = soalSatu.getCheckedRadioButtonId();
                 int hasilSoalDua = soalDua.getCheckedRadioButtonId();
-                int hasilSoalTiga =soalTiga.getCheckedRadioButtonId();
                 jawab1 = (RadioButton) findViewById(hasilSoalSatu);
                 jawab2 = (RadioButton) findViewById(hasilSoalDua);
-                jawab3 = (RadioButton) findViewById(hasilSoalTiga);
                 String[] hasilJawab = {
                         hasilSoalSatu == -1 ? null : jawab1.getText().toString(),
-                        hasilSoalDua == -1 ? null : jawab2.getText().toString(),
-                        hasilSoalTiga == -1 ? null : jawab3.getText().toString()
+                        hasilSoalDua == -1 ? null : jawab2.getText().toString()
                 };
                 for(int x = 0; x < hasilJawab.length; x++){
                     if(jawaban[x].equals(hasilJawab[x])){
                         benar++;
                     }
                 }
-                Toast.makeText(QuizLevelOne.this, "Benar : " + String.valueOf(benar), Toast.LENGTH_SHORT).show();
+                Toast.makeText(QuizLevelOne.this, "Richtig : " + String.valueOf(benar), Toast.LENGTH_SHORT).show();
+
                 break;
             default:
                 break;
